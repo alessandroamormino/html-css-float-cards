@@ -9,6 +9,16 @@ body{
     font-family: 'Fredoka', sans-serif;
 }
 
+.float-left{
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* header */
 header{
     padding: 20px 0;
@@ -19,3 +29,23 @@ header h1{
     text-align: center;
 }
 /* /header */
+
+/* main */
+#container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main p{
+    text-align: center;
+    padding: 10px 0;
+}
+
+main .card{
+    width: calc(33% - 20px);
+    height: 100px;
+    background-color: #0F0E17;
+    margin: 20px 10px;
+}
+
+/* /main */
