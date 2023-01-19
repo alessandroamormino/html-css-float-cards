@@ -32,7 +32,7 @@ header h1{
 
 /* main */
 #container{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -46,6 +46,39 @@ main .card{
     height: 100px;
     background-color: #0F0E17;
     margin: 20px 10px;
+    color: #FFFFFF;
+}
+
+main .card .profile-pic{
+    height: 100%;
+    padding-right: 15px;
+}
+
+main .card .info{
+    padding-top: 15px;
+}
+
+main .card .i-name{
+    display: block;
+    font-weight: 600;
+}
+
+main .card .i-profession{
+    display: block; 
+}
+
+main .card .info .i-email {
+    display: block;
+    color: #51C0DB;
+    text-decoration: none;
+}
+
+main .card .info .i-email:hover {
+    text-decoration: underline;
+}
+
+main .card .info *[class^="i"]{
+    padding-bottom: 5px;
 }
 
 /* /main */
